@@ -1,7 +1,7 @@
 
 Name:           rackspace-cloud-monitoring-release 
 Version:        1.0
-Release:        1.{?dist}
+Release:        1%{?dist}
 
 Summary:        Rackspace Cloud Monitoring repository configuration
 
@@ -68,12 +68,12 @@ install -pm 644 %{SOURCE2} \
 %if 0%{?fedora} == 16
 install -pm 644 %{SOURCE5} \
     $RPM_BUILD_ROOT%{_sysconfdir}/yum.repos.d/rackspace-cloud-monitoring.repo
-%endir
+%endif
 
 %if 0%{?fedora} == 17
 install -pm 644 %{SOURCE6} \
     $RPM_BUILD_ROOT%{_sysconfdir}/yum.repos.d/rackspace-cloud-monitoring.repo
-%endir
+%endif
 
 
 %clean
