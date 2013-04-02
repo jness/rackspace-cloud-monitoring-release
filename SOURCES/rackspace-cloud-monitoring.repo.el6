@@ -1,0 +1,7 @@
+[rackspace-cloud-monitoring]
+name=Rackspace Cloud Monitoring for Enterprise Linux 6 - $basearch
+baseurl=http://stable.packages.cloudmonitoring.rackspace.com/redhat-6-$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RACKSPACE-CLOUD-MONITORING-GPG-KEY
+

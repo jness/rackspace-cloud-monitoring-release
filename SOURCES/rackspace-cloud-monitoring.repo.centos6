@@ -1,0 +1,7 @@
+[rackspace-cloud-monitoring]
+name=Rackspace Cloud Monitoring for CentOS 6 - $basearch
+baseurl=http://stable.packages.cloudmonitoring.rackspace.com/centos-6-$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RACKSPACE-CLOUD-MONITORING-GPG-KEY
+
