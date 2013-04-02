@@ -86,5 +86,5 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Tue Apr 02 2013 Jeffrey Ness <jeffrey.ness@rackspace.com> - 1.0-1.ius
+* Tue Apr 02 2013 Jeffrey Ness <jeffrey.ness@rackspace.com> - 1.0-1
 - New package for Rackspace Monitoring Release
